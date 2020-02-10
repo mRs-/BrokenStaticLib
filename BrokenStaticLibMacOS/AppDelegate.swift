@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BrokenStaticLib
+//  BrokenStaticLibMacOS
 //
 //  Created by Marius Landwehr on 10.02.20.
 //  Copyright © 2020 Marius Landwehr. All rights reserved.

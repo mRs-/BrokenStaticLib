@@ -3,33 +3,96 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E8C532023F19FE500FEAF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C531F23F19FE500FEAF85 /* AppDelegate.swift */; };
-		8E8C532223F19FE500FEAF85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C532123F19FE500FEAF85 /* ContentView.swift */; };
-		8E8C532423F19FE700FEAF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C532323F19FE700FEAF85 /* Assets.xcassets */; };
-		8E8C532723F19FE700FEAF85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C532623F19FE700FEAF85 /* Preview Assets.xcassets */; };
-		8E8C532A23F19FE700FEAF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C532823F19FE700FEAF85 /* Main.storyboard */; };
+		8E8C533C23F1A03700FEAF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C533B23F1A03700FEAF85 /* AppDelegate.swift */; };
+		8E8C533E23F1A03700FEAF85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C533D23F1A03700FEAF85 /* ContentView.swift */; };
+		8E8C534023F1A03800FEAF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C533F23F1A03800FEAF85 /* Assets.xcassets */; };
+		8E8C534323F1A03800FEAF85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C534223F1A03800FEAF85 /* Preview Assets.xcassets */; };
+		8E8C534623F1A03800FEAF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C534423F1A03800FEAF85 /* Main.storyboard */; };
+		8E8C534E23F1A04200FEAF85 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8C534D23F1A04200FEAF85 /* Logging */; };
+		8E8C535B23F1A06300FEAF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C535A23F1A06300FEAF85 /* AppDelegate.swift */; };
+		8E8C535D23F1A06300FEAF85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C535C23F1A06300FEAF85 /* ContentView.swift */; };
+		8E8C535F23F1A06300FEAF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C535E23F1A06300FEAF85 /* Assets.xcassets */; };
+		8E8C536223F1A06300FEAF85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C536123F1A06300FEAF85 /* Preview Assets.xcassets */; };
+		8E8C536523F1A06400FEAF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C536323F1A06300FEAF85 /* Main.storyboard */; };
+		8E8C536C23F1A06700FEAF85 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8C536B23F1A06700FEAF85 /* Logging */; };
+		8E8C536D23F1A06A00FEAF85 /* BrokenStaticLibMacOSHelper.app in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C535823F1A06300FEAF85 /* BrokenStaticLibMacOSHelper.app */; };
+		8E8C537423F1A11E00FEAF85 /* BrokenStaticLibMacOSHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E8C535823F1A06300FEAF85 /* BrokenStaticLibMacOSHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E8C535223F1A05000FEAF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8C531423F19FE500FEAF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8C531B23F19FE500FEAF85;
+			remoteInfo = BrokenStaticLib;
+		};
+		8E8C536E23F1A06A00FEAF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8C531423F19FE500FEAF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8C535723F1A06300FEAF85;
+			remoteInfo = BrokenStaticLibMacOSHelper;
+		};
+		8E8C537023F1A0CF00FEAF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8C531423F19FE500FEAF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8C535723F1A06300FEAF85;
+			remoteInfo = BrokenStaticLibMacOSHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E8C537323F1A11200FEAF85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Applications;
+			dstSubfolderSpec = 6;
+			files = (
+				8E8C537423F1A11E00FEAF85 /* BrokenStaticLibMacOSHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8E8C531C23F19FE500FEAF85 /* BrokenStaticLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenStaticLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8C531F23F19FE500FEAF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E8C532123F19FE500FEAF85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8E8C532323F19FE700FEAF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E8C532623F19FE700FEAF85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E8C532923F19FE700FEAF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E8C532B23F19FE700FEAF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E8C532C23F19FE700FEAF85 /* BrokenStaticLib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrokenStaticLib.entitlements; sourceTree = "<group>"; };
+		8E8C533923F1A03700FEAF85 /* BrokenStaticLibMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenStaticLibMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8C533B23F1A03700FEAF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E8C533D23F1A03700FEAF85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E8C533F23F1A03800FEAF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8C534223F1A03800FEAF85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E8C534523F1A03800FEAF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8C534723F1A03800FEAF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8C534823F1A03900FEAF85 /* BrokenStaticLibMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrokenStaticLibMacOS.entitlements; sourceTree = "<group>"; };
+		8E8C535823F1A06300FEAF85 /* BrokenStaticLibMacOSHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenStaticLibMacOSHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8C535A23F1A06300FEAF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E8C535C23F1A06300FEAF85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E8C535E23F1A06300FEAF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8C536123F1A06300FEAF85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E8C536423F1A06400FEAF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8C536623F1A06400FEAF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8C536723F1A06400FEAF85 /* BrokenStaticLibMacOSHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrokenStaticLibMacOSHelper.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E8C531923F19FE500FEAF85 /* Frameworks */ = {
+		8E8C533623F1A03700FEAF85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8C534E23F1A04200FEAF85 /* Logging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8C535523F1A06300FEAF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C536C23F1A06700FEAF85 /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,37 +102,69 @@
 		8E8C531323F19FE500FEAF85 = {
 			isa = PBXGroup;
 			children = (
-				8E8C531E23F19FE500FEAF85 /* BrokenStaticLib */,
+				8E8C533A23F1A03700FEAF85 /* BrokenStaticLibMacOS */,
+				8E8C535923F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */,
 				8E8C531D23F19FE500FEAF85 /* Products */,
+				8E8C534C23F1A04200FEAF85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8E8C531D23F19FE500FEAF85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E8C531C23F19FE500FEAF85 /* BrokenStaticLib.app */,
+				8E8C533923F1A03700FEAF85 /* BrokenStaticLibMacOS.app */,
+				8E8C535823F1A06300FEAF85 /* BrokenStaticLibMacOSHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E8C531E23F19FE500FEAF85 /* BrokenStaticLib */ = {
+		8E8C533A23F1A03700FEAF85 /* BrokenStaticLibMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				8E8C531F23F19FE500FEAF85 /* AppDelegate.swift */,
-				8E8C532123F19FE500FEAF85 /* ContentView.swift */,
-				8E8C532323F19FE700FEAF85 /* Assets.xcassets */,
-				8E8C532823F19FE700FEAF85 /* Main.storyboard */,
-				8E8C532B23F19FE700FEAF85 /* Info.plist */,
-				8E8C532C23F19FE700FEAF85 /* BrokenStaticLib.entitlements */,
-				8E8C532523F19FE700FEAF85 /* Preview Content */,
+				8E8C533B23F1A03700FEAF85 /* AppDelegate.swift */,
+				8E8C533D23F1A03700FEAF85 /* ContentView.swift */,
+				8E8C533F23F1A03800FEAF85 /* Assets.xcassets */,
+				8E8C534423F1A03800FEAF85 /* Main.storyboard */,
+				8E8C534723F1A03800FEAF85 /* Info.plist */,
+				8E8C534823F1A03900FEAF85 /* BrokenStaticLibMacOS.entitlements */,
+				8E8C534123F1A03800FEAF85 /* Preview Content */,
 			);
-			path = BrokenStaticLib;
+			path = BrokenStaticLibMacOS;
 			sourceTree = "<group>";
 		};
-		8E8C532523F19FE700FEAF85 /* Preview Content */ = {
+		8E8C534123F1A03800FEAF85 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8E8C532623F19FE700FEAF85 /* Preview Assets.xcassets */,
+				8E8C534223F1A03800FEAF85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E8C534C23F1A04200FEAF85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E8C535923F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C535A23F1A06300FEAF85 /* AppDelegate.swift */,
+				8E8C535C23F1A06300FEAF85 /* ContentView.swift */,
+				8E8C535E23F1A06300FEAF85 /* Assets.xcassets */,
+				8E8C536323F1A06300FEAF85 /* Main.storyboard */,
+				8E8C536623F1A06400FEAF85 /* Info.plist */,
+				8E8C536723F1A06400FEAF85 /* BrokenStaticLibMacOSHelper.entitlements */,
+				8E8C536023F1A06300FEAF85 /* Preview Content */,
+			);
+			path = BrokenStaticLibMacOSHelper;
+			sourceTree = "<group>";
+		};
+		8E8C536023F1A06300FEAF85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C536123F1A06300FEAF85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -77,21 +172,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E8C531B23F19FE500FEAF85 /* BrokenStaticLib */ = {
+		8E8C533823F1A03700FEAF85 /* BrokenStaticLibMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8C532F23F19FE700FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLib" */;
+			buildConfigurationList = 8E8C534923F1A03900FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLibMacOS" */;
 			buildPhases = (
-				8E8C531823F19FE500FEAF85 /* Sources */,
-				8E8C531923F19FE500FEAF85 /* Frameworks */,
-				8E8C531A23F19FE500FEAF85 /* Resources */,
+				8E8C533523F1A03700FEAF85 /* Sources */,
+				8E8C533623F1A03700FEAF85 /* Frameworks */,
+				8E8C533723F1A03700FEAF85 /* Resources */,
+				8E8C537323F1A11200FEAF85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8C535323F1A05000FEAF85 /* PBXTargetDependency */,
+				8E8C536F23F1A06A00FEAF85 /* PBXTargetDependency */,
+				8E8C537123F1A0CF00FEAF85 /* PBXTargetDependency */,
+			);
+			name = BrokenStaticLibMacOS;
+			packageProductDependencies = (
+				8E8C534D23F1A04200FEAF85 /* Logging */,
+			);
+			productName = BrokenStaticLibMacOS;
+			productReference = 8E8C533923F1A03700FEAF85 /* BrokenStaticLibMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E8C535723F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8C536823F1A06400FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLibMacOSHelper" */;
+			buildPhases = (
+				8E8C535423F1A06300FEAF85 /* Sources */,
+				8E8C535523F1A06300FEAF85 /* Frameworks */,
+				8E8C535623F1A06300FEAF85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BrokenStaticLib;
-			productName = BrokenStaticLib;
-			productReference = 8E8C531C23F19FE500FEAF85 /* BrokenStaticLib.app */;
+			name = BrokenStaticLibMacOSHelper;
+			packageProductDependencies = (
+				8E8C536B23F1A06700FEAF85 /* Logging */,
+			);
+			productName = BrokenStaticLibMacOSHelper;
+			productReference = 8E8C535823F1A06300FEAF85 /* BrokenStaticLibMacOSHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +226,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Marius Landwehr";
 				TargetAttributes = {
-					8E8C531B23F19FE500FEAF85 = {
+					8E8C533823F1A03700FEAF85 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					8E8C535723F1A06300FEAF85 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -118,45 +243,94 @@
 				Base,
 			);
 			mainGroup = 8E8C531323F19FE500FEAF85;
+			packageReferences = (
+				8E8C533223F1A01D00FEAF85 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = 8E8C531D23F19FE500FEAF85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E8C531B23F19FE500FEAF85 /* BrokenStaticLib */,
+				8E8C533823F1A03700FEAF85 /* BrokenStaticLibMacOS */,
+				8E8C535723F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E8C531A23F19FE500FEAF85 /* Resources */ = {
+		8E8C533723F1A03700FEAF85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8C532A23F19FE700FEAF85 /* Main.storyboard in Resources */,
-				8E8C532723F19FE700FEAF85 /* Preview Assets.xcassets in Resources */,
-				8E8C532423F19FE700FEAF85 /* Assets.xcassets in Resources */,
+				8E8C536D23F1A06A00FEAF85 /* BrokenStaticLibMacOSHelper.app in Resources */,
+				8E8C534623F1A03800FEAF85 /* Main.storyboard in Resources */,
+				8E8C534323F1A03800FEAF85 /* Preview Assets.xcassets in Resources */,
+				8E8C534023F1A03800FEAF85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8C535623F1A06300FEAF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C536523F1A06400FEAF85 /* Main.storyboard in Resources */,
+				8E8C536223F1A06300FEAF85 /* Preview Assets.xcassets in Resources */,
+				8E8C535F23F1A06300FEAF85 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E8C531823F19FE500FEAF85 /* Sources */ = {
+		8E8C533523F1A03700FEAF85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8C532223F19FE500FEAF85 /* ContentView.swift in Sources */,
-				8E8C532023F19FE500FEAF85 /* AppDelegate.swift in Sources */,
+				8E8C533E23F1A03700FEAF85 /* ContentView.swift in Sources */,
+				8E8C533C23F1A03700FEAF85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8C535423F1A06300FEAF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C535D23F1A06300FEAF85 /* ContentView.swift in Sources */,
+				8E8C535B23F1A06300FEAF85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E8C535323F1A05000FEAF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 8E8C535223F1A05000FEAF85 /* PBXContainerItemProxy */;
+		};
+		8E8C536F23F1A06A00FEAF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8C535723F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */;
+			targetProxy = 8E8C536E23F1A06A00FEAF85 /* PBXContainerItemProxy */;
+		};
+		8E8C537123F1A0CF00FEAF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8C535723F1A06300FEAF85 /* BrokenStaticLibMacOSHelper */;
+			targetProxy = 8E8C537023F1A0CF00FEAF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		8E8C532823F19FE700FEAF85 /* Main.storyboard */ = {
+		8E8C534423F1A03800FEAF85 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E8C532923F19FE700FEAF85 /* Base */,
+				8E8C534523F1A03800FEAF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E8C536323F1A06300FEAF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8C536423F1A06400FEAF85 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -277,47 +451,93 @@
 			};
 			name = Release;
 		};
-		8E8C533023F19FE700FEAF85 /* Debug */ = {
+		8E8C534A23F1A03900FEAF85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BrokenStaticLib/BrokenStaticLib.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BrokenStaticLibMacOS/BrokenStaticLibMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLib/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLibMacOS/Preview Content\"";
 				DEVELOPMENT_TEAM = US9PK3GZYH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BrokenStaticLib/Info.plist;
+				INFOPLIST_FILE = BrokenStaticLibMacOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLib;
+				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLibMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		8E8C533123F19FE700FEAF85 /* Release */ = {
+		8E8C534B23F1A03900FEAF85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BrokenStaticLib/BrokenStaticLib.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BrokenStaticLibMacOS/BrokenStaticLibMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLib/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLibMacOS/Preview Content\"";
 				DEVELOPMENT_TEAM = US9PK3GZYH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BrokenStaticLib/Info.plist;
+				INFOPLIST_FILE = BrokenStaticLibMacOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLib;
+				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLibMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8E8C536923F1A06400FEAF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrokenStaticLibMacOSHelper/BrokenStaticLibMacOSHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLibMacOSHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = US9PK3GZYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BrokenStaticLibMacOSHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLibMacOSHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E8C536A23F1A06400FEAF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrokenStaticLibMacOSHelper/BrokenStaticLibMacOSHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenStaticLibMacOSHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = US9PK3GZYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BrokenStaticLibMacOSHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = landwehr.marius.BrokenStaticLibMacOSHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -335,16 +555,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8C532F23F19FE700FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLib" */ = {
+		8E8C534923F1A03900FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLibMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8C533023F19FE700FEAF85 /* Debug */,
-				8E8C533123F19FE700FEAF85 /* Release */,
+				8E8C534A23F1A03900FEAF85 /* Debug */,
+				8E8C534B23F1A03900FEAF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8C536823F1A06400FEAF85 /* Build configuration list for PBXNativeTarget "BrokenStaticLibMacOSHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8C536923F1A06400FEAF85 /* Debug */,
+				8E8C536A23F1A06400FEAF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E8C533223F1A01D00FEAF85 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E8C534D23F1A04200FEAF85 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E8C533223F1A01D00FEAF85 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+		8E8C536B23F1A06700FEAF85 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E8C533223F1A01D00FEAF85 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E8C531423F19FE500FEAF85 /* Project object */;
 }
